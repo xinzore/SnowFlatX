@@ -1,0 +1,10 @@
+{
+	"name": "SnowFlatX",
+	"description": "SnowFlatX responsive theme with RTL support",
+	"version": "1.4",
+	"date": "2023-04-20",
+	"author": "Xinzore",
+	"author_uri": "https://xinzore.github.io",
+	"license": "GPLv2",
+	"min_q2a": "1.8"
+}
