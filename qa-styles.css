@@ -110,7 +110,7 @@ a:hover {
 .qa-main-heading {
 	position: relative;
 	margin: 0 0 5px;
-	padding: 2px 10px 2px 5px;
+	padding: 0px 39px 0px 0px;
 	background: linear-gradient(135deg,#3c4443 0,#251b26 100%);
 	color: #fff;
 }
@@ -1173,7 +1173,7 @@ blockquote p {
 }
 @media (min-width: 360px) {
 	.qa-q-item-main {
-		width: 250px;
+		width: 100%;
 	}
 }
 @media (min-width: 480px) {
@@ -1361,7 +1361,7 @@ blockquote p {
 	margin-right: 2px;
 	padding: 5px 10px;
 	margin-bottom: 5px;
-	background: #fff;
+	color: #fff;
 	display: block;
 }
 
@@ -1372,7 +1372,7 @@ blockquote p {
 .qa-page-links-item a {
 	padding: 5px 10px;
 	margin-bottom: 5px;
-	background: #fff;
+	
 	display: block;
 	text-decoration: none;
 	color: #34495e;
