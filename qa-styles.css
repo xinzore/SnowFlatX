@@ -395,7 +395,7 @@ blockquote p {
 	color: #fff;
 }
 @media (max-width: 979px){
-	.qam-main-nav-wrapper a{
+	.qa-nav-main-link{
 	background: linear-gradient(135deg,#3c4443 0,#251b26 100%);
 	}
 }
@@ -433,6 +433,13 @@ blockquote p {
 .qa-logo img {
 	max-height: 49px;
 	width: auto;
+}
+@media (max-width: 979px) {
+	.qa-logo img {
+		max-height: 58px;
+		width: auto;
+		
+	}
 }
 
 .qa-logo-link {
@@ -1966,14 +1973,14 @@ input[type="submit"], button {
 }
 
 .qa-ask-similar {
-	background-color: #ecf0f1;
-	padding: 10px;
-	margin-bottom: 5px;
+	background: linear-gradient(135deg,#3c4443 0,#251b26 100%);
+	padding: 4px;
+	
 }
 
 .qa-ask-similar-title {
 	margin: -10px -10px 10px;
-	padding: 10px;
+	
 	background: #7f8c8d;
 	color: #fff;
 }
@@ -2268,6 +2275,7 @@ input[type="submit"], button {
 @media (max-width: 979px) {
 	.qa-q-view-stats, .qa-voting {
 		margin-bottom: 5px;
+		
 	}
 }
 
@@ -2276,12 +2284,15 @@ input[type="submit"], button {
 	text-align: center;
 	clear: both;
 	float: left;
-	width: 100%;
 	height: auto;
-	margin: 6px 0 -4px;
-	word-break: break-word;
+	word-break: break-word;	
 }
-
+@media (max-width: 979px) {
+	.qa-view-count {
+		display: none;
+		
+	}
+}
 .qa-view-count-data {
 }
 
@@ -2312,6 +2323,8 @@ input[type="submit"], button {
 	font-size: 12px;
 	display: block;
 	margin-bottom: 20px;
+	display: flex;
+    flex-direction: column;
 }
 
 .qa-q-view-avatar {
@@ -2463,6 +2476,7 @@ input[type="submit"], button {
 	margin-bottom: 5px;
 	background: #ffffff0f;
 	position: relative;
+	
 	
 }
 /* highlight selected answer */
@@ -3024,25 +3038,25 @@ input[type="submit"], button {
 	animation: shake 0.25s;
 }
 .qa-activity-count-item:nth-child(1) {
-	background: #1abc9c;
+	background: #1abc9c61;
 }
 .qa-activity-count-item:nth-child(1):before {
 	content: '\e801';
 }
 .qa-activity-count-item:nth-child(2) {
-	background: #2ecc71;
+	background: #2ecc7161;
 }
 .qa-activity-count-item:nth-child(2):before {
 	content: '\e802';
 }
 .qa-activity-count-item:nth-child(3) {
-	background: #f1c40f;
+	background: #f1c40f4a;
 }
 .qa-activity-count-item:nth-child(3):before {
 	content: '\e800';
 }
 .qa-activity-count-item:nth-child(4) {
-	background: #e67e22;
+	background: #e67e2247;
 }
 .qa-activity-count-item:nth-child(4):before {
 	content: '\e809';
