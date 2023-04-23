@@ -207,7 +207,7 @@ pre code {
 }
 
 code, samp, kbd {
-	color: #34495e;
+	color: #f9ee5a;
 	font-family: "Courier New",Courier,monospace,sans-serif;
 	text-align: left;
 }
@@ -1375,7 +1375,7 @@ blockquote p {
 	
 	display: block;
 	text-decoration: none;
-	color: #34495e;
+	color: #fff;
 }
 .qa-page-links-item a:hover, .qa-page-links-item a:focus {
 	background: #e67e22;
@@ -1401,7 +1401,7 @@ blockquote p {
 .qa-page-ellipsis {
 	padding: 5px 10px;
 	margin-bottom: 5px;
-	background: #fff;
+	
 	display: block;
 }
 
@@ -2173,7 +2173,7 @@ input[type="submit"], button {
 	padding: 10px 15px;
 	border: 0;
 	font-size: 14px;
-	background: #2c3e50 none center no-repeat;
+	background: #2c3e5000 none center no-repeat;
 	color: #fff;
 	width: 32px;
 	height: 32px;
@@ -2747,7 +2747,7 @@ input[type="submit"], button {
 
 .qa-c-list-item .qa-form-light-button {
 	padding: 10px 15px;
-	background: #bdc3c7 none center no-repeat;
+	background: #bdc3c700 none center no-repeat;
 	color: #34495e;
 	width: 24px;
 	height: 24px;
@@ -3537,7 +3537,7 @@ input[type="submit"], button {
     background: linear-gradient(135deg,#3c4443 0,#251b26 100%);
 }
 
-.qa-tag-link:hover,.zoom:hover,.qa-nav-main-link:hover,.qa-logo-link:hover {
+.qa-form-light-button:hover,.qa-tag-link:hover,.zoom:hover,.qa-nav-main-link:hover,.qa-logo-link:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .5s;
